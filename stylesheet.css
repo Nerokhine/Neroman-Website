@@ -1,4 +1,4 @@
-nav {
+.pure-menu ul {
     text-align: justify;
     min-width: 500px;
 	width: 100%;
@@ -13,12 +13,12 @@ nav {
 	
 	
 }
-nav:after {
+.pure-menu ul:after {
     content: '';
     display: inline-block;
     width: 100%;
 }
-nav li {
+.pure-menu ul li {
     display: inline-block;
 	color: 
 }
