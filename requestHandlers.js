@@ -1,12 +1,11 @@
 function start(response) {
 	
 	var request=require('request');
-	/*request('http://google.com', function(err,res,body){
-	  response.writeHead(200, {"Content-Type": "text/html"});
-	  response.write(body);
-	  response.end();
+	request('https://api.vineapp.com/timelines/popular', function(err,res,body){ 
+
+	  console.log(JSON.stringify(JSON.parse(res['body'])['data']['records'][0]['videoUrl']));
 	  
-	});*/
+	});
 	var fs = require('fs');
 	var index = fs.readFileSync('index.html');
 	response.writeHead(200, {"Content-Type": "text/html"});
