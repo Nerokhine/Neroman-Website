@@ -1,0 +1,28 @@
+nav {
+    text-align: justify;
+    min-width: 500px;
+	width: 100%;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 1px;
+	background-color: lightblue;
+	font-family: monospace;
+	
+	
+	
+	
+	
+}
+nav:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+nav li {
+    display: inline-block;
+	color: 
+}
+
+a {
+	text-decoration: none;
+}
