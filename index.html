@@ -3,6 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
 <head>
+	<script>
+  	function resizeIframe(obj, num) {
+    	
+  	}
+	</script>
 	<div class="pure-menu pure-menu-horizontal">
         <ul>	 
 			<li class="pure-menu-item"><a href="#" class="pure-menu-link">/all</a></li>
@@ -17,9 +22,32 @@
     </div>
 </head>
 <body>
-	<div>
-	  <iframe id="player1" width="420" height="315"
-		src="https://www.youtube.com/embed/XGSy3_Czz8k">
+	<div style="height: 50vh;">
+	  <iframe id="player1"
+	  	frameborder="0" scrolling="no" onload="resizeIframe(this, 1)" width =33% height = 100%
+		src="http://v.cdn.vine.co/r/videos/15AD2F41671432497816349057024_1e2b8eced3b.4.7.mp4?versionId=E2CZFilF_2uReNtJTvudBoYh8xn_NOBi">
+		</iframe>
+		<iframe id="player2"
+	  	frameborder="0" scrolling="no" onload="resizeIframe(this, 2)" width =33% height = 100%
+		src="http://v.cdn.vine.co/r/videos/15AD2F41671432497816349057024_1e2b8eced3b.4.7.mp4?versionId=E2CZFilF_2uReNtJTvudBoYh8xn_NOBi">
+		</iframe>
+		<iframe id="player3"
+	  	frameborder="0" scrolling="no" onload="resizeIframe(this, 3)" width =33% height = 100%
+		src="http://v.cdn.vine.co/r/videos/15AD2F41671432497816349057024_1e2b8eced3b.4.7.mp4?versionId=E2CZFilF_2uReNtJTvudBoYh8xn_NOBi">
+		</iframe>
+	</div>
+	<div style="height: 50vh;">
+	  <iframe id="player4" autoplay=false
+	  	frameborder="0" scrolling="no" onload="resizeIframe(this, 4)" width =33% height = 100%
+		src="http://v.cdn.vine.co/r/videos/15AD2F41671432497816349057024_1e2b8eced3b.4.7.mp4?versionId=E2CZFilF_2uReNtJTvudBoYh8xn_NOBi">
+		</iframe>
+		<iframe id="player5" autoplay=false
+	  	frameborder="0" scrolling="no" onload="resizeIframe(this, 5)" width =33% height = 100%
+		src="http://v.cdn.vine.co/r/videos/15AD2F41671432497816349057024_1e2b8eced3b.4.7.mp4?versionId=E2CZFilF_2uReNtJTvudBoYh8xn_NOBi">
+		</iframe>
+		<iframe id="player6" autoplay=false
+	  	frameborder="0" scrolling="no" onload="resizeIframe(this, 6)" width =33% height = 100%
+		src="http://v.cdn.vine.co/r/videos/15AD2F41671432497816349057024_1e2b8eced3b.4.7.mp4?versionId=E2CZFilF_2uReNtJTvudBoYh8xn_NOBi">
 		</iframe>
 	</div>
 </body>
