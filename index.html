@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./stylesheet.css">
-<body>
-<head>
-	<div class="menu">
-        <ul>	 
-			<li id="all" class="menu-item"><a href="#" class="pure-menu-link">/all</a></li>
-			<li class="menu-item"><a href="#" class="pure-menu-link">/sports</a></li>
-			<li class="menu-item"><a href="#" class="pure-menu-link">/news</a></li>
-			<li class="menu-item"><a href="#" class="pure-menu-link">/vines</a></li>
-			<li class="menu-item"><a href="#" class="pure-menu-link">/gaming</a></li>
-			<li class="menu-item"><a href="#" class="pure-menu-link">/random</a></li>
-			<li class="menu-item"><a href="#" class="pure-menu-link">/funny</a></li>
-		  	<li class="menu-item"><a href="#" class="pure-menu-link">/other</a></li>
-			<li class="menu-item"><a href="#" class="pure-menu-link">/other</a></li>
-			<li class="menu-item"><a href="#" class="pure-menu-link">/other</a></li>	  
-		</ul>
-    </div>
-</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="menu">
+            <ul>	 
+                <li id="all" class="menu-item"><a href="#" class="pure-menu-link">/all</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/sports</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/news</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/vines</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/gaming</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/random</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/funny</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/other</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/other</a></li>
+                <li class="menu-item"><a href="#" class="pure-menu-link">/other</a></li>	  
+            </ul>
+        </div>
+        
+        <div style="height: 45vh;">
+            <iframe id="player1"
+                    frameborder="0" scrolling="no" onload="" width =33% height = 100%
+                    src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP">
+            </iframe>
+            
+            <iframe id="player2"
+                    frameborder="0" scrolling="no" onload="" width =33% height = 100%
+                    src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP"></iframe>
 
-	<div style="height: 45vh;">
-	  	<iframe id="player1"
-	  	frameborder="0" scrolling="no" onload="" width =33% height = 100%
-		src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP">
-		</iframe>
-		<iframe id="player1"
-	  	frameborder="0" scrolling="no" onload="" width =33% height = 100%
-		src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP">
-		</iframe>
-		
-		<iframe id="player3"
-	  	frameborder="0" scrolling="no" onload="" width =33% height = 100%
-		src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP">
-		</iframe>
-	</div>
-	<div style="height: 45vh;">
-	  <iframe id="player4" autoplay=false
-	  	frameborder="0" scrolling="no" onload="" width =33% height = 100%
-		src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP">
-		</iframe>
-		<iframe id="player5" autoplay=false
-	  	frameborder="0" scrolling="no" onload="" width =33% height = 100%
-		src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP">
-		</iframe>
-		<iframe id="player6" autoplay=false
-	  	frameborder="0" scrolling="no" onload="" width =33% height = 100%
-		src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP">
-		</iframe>
-	</div>
-</body>
+            <iframe id="player3"
+                    frameborder="0" scrolling="no" onload="" width =33% height = 100%
+                    src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP"></iframe>
+        </div>
+        
+        <div style="height: 45vh;">
+            <iframe id="player4"
+                    autoplay=false frameborder="0" scrolling="no" onload="" width =33% height = 100%
+                    src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP"></iframe>
+            <iframe id="player5"
+                    autoplay=false frameborder="0" scrolling="no" onload="" width =33% height = 100%
+                    src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP"></iframe>
+            <iframe id="player6"
+                    autoplay=false frameborder="0" scrolling="no" onload="" width =33% height = 100%
+                    src="http://v.cdn.vine.co/r/thumbs/8C9262B5A01432544891967266816_57d0469786d.43.0.D786FD78-AA37-47CF-AC57-A40A2ADC547D.mp4.jpg?versionId=7WbGycLZPRTVHPzVBB7rfmA5VWz4k6GP">
+            </iframe>
+        </div>
+    </body>
 </html>
