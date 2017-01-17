@@ -1,5 +1,5 @@
 $(document).ready(function () {
     $('li').click(function () {
-        $(this).fadeIn('fast');
+        $(this).fadeOut('fast');
     });
 });
